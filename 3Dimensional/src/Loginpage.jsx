@@ -15,7 +15,7 @@ function Loginpage() {
               <img src="" alt="" className={`w-250`}/>
             </div>
           </Col>
-          <Col md={6} className={`${style.right_box} d-flex justify-content-center align-items-center border rounded-4 `}>
+          <Col md={6} className={`${style.right_box} d-flex justify-content-center align-items-center  rounded-4 `}>
             <div className={`align-items-center`}>
               <div md={4} className="header_text">
                 <p className={`${style.heading1 } `} >Login</p>
