@@ -1,0 +1,88 @@
+ .row{
+  width: 970px;
+  height: 500px;
+ }
+ .featured_image{
+  height: 200px;
+  width: 100px;
+ }
+
+.right_box{
+  background-color: rgb(77 11 145);
+  margin-top: -18px;
+    margin-bottom: -17px;
+   height: 500px;
+    
+      border: none
+   
+}
+.row{
+  --bs-gutter-x: 2.5rem;
+  background-color: rgb(137, 100, 249);;
+}
+
+.input_group2 input{
+  width: 300px;
+}
+
+
+@media screen and (max-width: 768px){
+  .box_area{
+    margin: 0 10px;
+  }
+
+  .left_box  .featured_image{
+    display: none;
+  }
+  .row {
+    background-color: transparent; /* Remove background color */
+    height: auto;
+  }
+
+  .right_box {
+    width: 100%; /* Full width for right box */
+    height: auto; /* Adjust height as needed */
+  }
+
+}
+.heading1{
+  font-family: 'Open Sans' ,sans-serif;
+  font-weight: 400; 
+}
+
+
+.input_group2 label{
+
+  margin-top: 39px;
+
+}
+label{
+  color: #ffff;
+}
+button{
+  margin-top: 45px;
+  margin-bottom: 20px;
+
+}
+.submit button{
+  background-color: rgb(137, 100, 249);
+  color: #ffff;
+}
+p{
+  color: rgb(250, 251, 252);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading1{
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-size: 24px;
+  
+}
+.heading2{
+  margin-top: 6px;
+  margin-bottom: 30px;
+
+}
+.input_group2 label{
+  margin-top: 37px;
+}
